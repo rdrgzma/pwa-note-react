@@ -5,6 +5,7 @@ class ListNotes extends Component {
     return (
       <div>
         <ul id="notes">
+            console.log(props.products);
             <li>Nota</li>
             <li>Nota</li>
         </ul>   

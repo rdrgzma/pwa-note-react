@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-#header, #form-add-note {
+#header, #form-add-note , #produtos {
     margin-bottom: 20px;
 }
 
@@ -7,16 +7,16 @@
     padding-bottom: 20px;
 }
 
-#notes ul, #notes li {
+#produtos ul, #produtos li {
     list-style: nome;
 }
 
-#notes li {
+#produtos li {
     cursor: pointer;
     padding: 10px;
 }
 
-#notes li:active {
+#produtos li:active {
     background-color: #607d8b;
     color: #ffffff;
 }
