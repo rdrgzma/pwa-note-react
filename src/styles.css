@@ -16,7 +16,7 @@
     padding: 10px;
 }
 
-#notes li:hover {
+#notes li:active {
     background-color: #607d8b;
     color: #ffffff;
 }

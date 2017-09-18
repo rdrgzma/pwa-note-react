@@ -5,7 +5,7 @@ class App extends Component {
   render() {
     return <div className="grey lighten-5 blue-grey-text">
         <div id="header" className="container grey lighten-4">
-          <h1>PWA</h1>
+          <h1>PWA NOTES</h1>
         </div>
         <div className="container grey lighten-4">
           <p>Adicione suas anotações aqui!</p>
