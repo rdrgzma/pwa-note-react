@@ -30,7 +30,9 @@ class App extends Component {
     return (
       <div className="grey lighten-5 blue-grey-text">
         <div id="header" className="container grey lighten-4">
+
           <h1>Comanda</h1>
+
         </div>
         <div> 
           <ul id = "produtos" className="container grey lighten-4">

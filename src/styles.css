@@ -16,7 +16,9 @@
     padding: 10px;
 }
 
+
 #produtos li:active {
+
     background-color: #607d8b;
     color: #ffffff;
 }
