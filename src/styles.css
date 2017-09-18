@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+#header, #form-add-note {
+    margin-bottom: 20px;
+}
+
+#content {
+    padding-bottom: 20px;
+}
+
+#notes ul, #notes li {
+    list-style: nome;
+}
+
+#notes li {
+    cursor: pointer;
+    padding: 10px;
+}
+
+#notes li:hover {
+    background-color: #607d8b;
+    color: #ffffff;
+}
+
+* {
+    box-sizing: border-box;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    padding: 20px;
+
+}
+
+h1,p {
+    padding: 20px;
+}
+
+h1 {
+    font-size: 2.8em;
+}
+
+p {
+    font-size: 1em;
+}
+
+input {
+    font: inherit;
+    padding: 10px 20px;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%
+}
+
+.row {
+    display: flex;
+}
+
+.col-1 {
+    flex-grow: 1;
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+/* 576px */
+@media (min-width:576px){
+    .container {
+        max-width: 540px;
+    }
+}
+
+/* 768px */
+@media (min-width:768px){
+    .container {
+        max-width: 720px;
+    }
+}
+/* 992px */
+@media (min-width:992px){
+    .container {
+        max-width: 960px;
+    }
+}
+/* 1200px */
+@media (min-width:1200px){
+    .container {
+        max-width: 1140px;
+    }
+}
